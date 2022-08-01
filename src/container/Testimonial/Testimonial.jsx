@@ -41,7 +41,7 @@ const Testimonial = () => {
             <div className="app__testimonial-content">
               <p className="p-text">{test.feedback}</p>
               <div>
-                <a target="_blank" href={test.linkedin}>
+                <a target="_blank" href={test.linkedin} rel="noreferrer">
                   <div className="app__testimonial-alignment">
                     <div>
                       <BsLinkedin />

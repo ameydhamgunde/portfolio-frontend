@@ -48,7 +48,7 @@ const Header = () => {
             <p className='p-text'><a href="tel:+1(647)642-5991">+1 (647) 642-5991</a></p>
             <p className="p-text"><a href="mailto:ameydhamgunde@gmail.com">ameydhamgunde@gmail.com</a></p>
             <p> <br/></p>
-            <p className="p-text">Check out my <a href="">resume</a>!</p>
+            <p className="p-text">Check out my <a href="mailto:ameydhamgunde@gmail.com">resume</a>!</p>
           </div>
         </div>
       </motion.div>

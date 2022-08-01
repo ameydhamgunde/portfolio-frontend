@@ -54,7 +54,7 @@ const Skills = () => {
 
       let j = 0;
       for (let i = 0; j < data.length; i++) {
-        if (data[i].name == s[j]) {
+        if (data[i].name === s[j]) {
           const element = data[i];
           data[i] = data[j];
           data[j] = element;
