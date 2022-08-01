@@ -164,10 +164,12 @@
             height: auto;
             object-fit: cover;
             filter: grayscale(1);
+            mix-blend-mode: multiply;
         }
 
         &:hover {
             img {
+                mix-blend-mode: multiply;
                 filter: grayscale(0);
             }
         }
