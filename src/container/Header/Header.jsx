@@ -37,10 +37,10 @@ const Header = () => {
           </div>
 
           <div className="tag-cmp app__flex">
-            <p className="p-text">Machine Learning Student</p>
-            <p className="p-text">Engineering Science 2T4+PEY @ UofT</p>
+            <p className="p-text">Machine Learning Student @ UofT</p>
+            <p className="p-text">Engineering Science 2T4+PEY, Machine Intelligence Major</p>
             <p> <br/></p>
-            <p className="p-text">Seeking employment <br />opportunities from May 2025!</p>
+            <p className="p-text">Seeking employment opportunities from May 2025!</p>
           </div>
 
           <div className="tag-cmp app__flex">
