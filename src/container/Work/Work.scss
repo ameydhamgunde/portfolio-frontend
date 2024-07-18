@@ -44,11 +44,14 @@
 
 .app__work-portfolio {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
     align-items: center;
+    overflow-x: scroll;
+    max-width: 85vw;
 
     .app__work-item {
+        flex-shrink: 0;
         width: 270px;
         flex-direction: column;
         margin: 2rem;
